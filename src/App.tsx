@@ -5,6 +5,7 @@ import AppLayout from "./ui/AppLayout";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,12 @@ const router = createBrowserRouter([
       {
         path: "/services/:serviceId",
         element: <Services />,
+        // loader: LOADER_
+        // errorElement: <Error/>
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
         // loader: LOADER_
         // errorElement: <Error/>
       },
