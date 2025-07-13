@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #e7e7e7;
+  --color-secondary: #f1c40f;
+
+  --color-black: #080808;
+  --font-primary: "Roboto", "serif";
+}
+
+* {
+  font-family: var(--font-primary);
+  transition: 350ms;
+}
