@@ -1,9 +1,36 @@
+import { createBrowserRouter, RouterProvider } from "react-router";
+
+// Project Files
+import AppLayout from "./ui/AppLayout";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import About from "./pages/About";
+
+const router = createBrowserRouter([
+  {
+    element: <AppLayout />,
+
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/about", element: <About /> },
+      {
+        path: "/services",
+        element: <Services />,
+        // loader: LOADER_
+        // errorElement: <Error/>
+      },
+      {
+        path: "/services/:serviceId",
+        element: <Services />,
+        // loader: LOADER_
+        // errorElement: <Error/>
+      },
+    ],
+  },
+]);
+
 function App() {
-  return (
-    <div className="flex h-[100vh] items-center justify-center bg-sky-50">
-      <h1 className="text-9xl font-bold text-blue-500 italic">InnovateHub</h1>
-    </div>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;

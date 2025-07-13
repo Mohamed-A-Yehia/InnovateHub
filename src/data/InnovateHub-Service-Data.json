@@ -1,0 +1,159 @@
+[
+  {
+    "id": "1",
+    "serviceName": "Custom Web Development",
+    "cost": 15000,
+    "isAvailable": true,
+    "implementationPeriod": "4-8 weeks",
+    "description": "Our custom web development service delivers tailored, responsive, and high-performance websites built to meet your business needs. We use modern frameworks like React, Angular, or Vue.js, coupled with secure backend technologies such as Node.js or Django. The service includes UI/UX design, API integration, and thorough testing for cross-browser compatibility and scalability. Ideal for businesses seeking a unique online presence with seamless user experiences.",
+    "category": "Development",
+    "tags": ["web", "custom", "responsive", "frontend", "backend"],
+    "prerequisites": [
+      "Clear project requirements",
+      "Brand guidelines (optional)"
+    ],
+    "deliveryFormat": "Source code, documentation, deployment support",
+    "imageUrl": "https://example.com/images/web-development.png",
+    "supportedIndustries": ["E-commerce", "Healthcare", "Education", "Finance"],
+    "clientTestimonials": [
+      {
+        "client": "Global Retail Inc.",
+        "quote": "The website boosted our online sales by 40% within three months."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "serviceName": "Mobile App Development",
+    "cost": 25000,
+    "isAvailable": true,
+    "implementationPeriod": "8-12 weeks",
+    "description": "We design and develop native or cross-platform mobile applications for iOS and Android using technologies like Swift, Kotlin, or Flutter. Our process includes wireframing, prototyping, backend integration, and app store deployment. The service ensures optimal performance, intuitive user interfaces, and robust security features, catering to startups, enterprises, or e-commerce platforms aiming to engage users on mobile devices.",
+    "category": "Mobile",
+    "tags": ["mobile", "iOS", "Android", "cross-platform", "app"],
+    "prerequisites": ["App requirements", "Target platform specifications"],
+    "deliveryFormat": "App binaries, source code, deployment support",
+    "imageUrl": "https://example.com/images/mobile-app.png",
+    "supportedIndustries": ["Retail", "Entertainment", "Healthcare", "Travel"]
+  },
+  {
+    "id": "3",
+    "serviceName": "Cloud Infrastructure Setup",
+    "cost": 10000,
+    "isAvailable": false,
+    "implementationPeriod": "2-4 weeks",
+    "description": "Our cloud infrastructure setup service provides end-to-end configuration of scalable and secure cloud environments using platforms like AWS, Azure, or Google Cloud. We handle architecture design, server setup, database integration, and security compliance (e.g., GDPR, HIPAA). This service is ideal for businesses transitioning to the cloud or optimizing existing infrastructure for performance and cost-efficiency.",
+    "category": "Cloud",
+    "tags": ["cloud", "AWS", "Azure", "infrastructure", "DevOps"],
+    "prerequisites": [
+      "Existing infrastructure details",
+      "Compliance requirements"
+    ],
+    "deliveryFormat": "Cloud configuration, documentation, support plan",
+    "imageUrl": "https://example.com/images/cloud-infra.png",
+    "supportedIndustries": ["Finance", "Logistics", "Technology", "Healthcare"]
+  },
+  {
+    "id": "4",
+    "serviceName": "Cybersecurity Audit",
+    "cost": 8000,
+    "isAvailable": true,
+    "implementationPeriod": "1-3 weeks",
+    "description": "Our cybersecurity audit service assesses your systems for vulnerabilities, ensuring robust protection against threats. We perform penetration testing, code reviews, and compliance checks (e.g., ISO 27001, SOC 2). The service includes a detailed report with actionable recommendations to strengthen security posture, suitable for businesses handling sensitive data or requiring regulatory compliance.",
+    "category": "Security",
+    "tags": ["cybersecurity", "audit", "penetration testing", "compliance"],
+    "prerequisites": ["Access to systems", "List of critical assets"],
+    "deliveryFormat": "Audit report, remediation plan, consultation",
+    "imageUrl": "https://example.com/images/cybersecurity.png",
+    "supportedIndustries": ["Finance", "Healthcare", "Government", "E-commerce"]
+  },
+  {
+    "id": "5",
+    "serviceName": "AI Model Integration",
+    "cost": 20000,
+    "isAvailable": true,
+    "implementationPeriod": "6-10 weeks",
+    "description": "We integrate advanced AI models, such as machine learning or natural language processing solutions, into your existing systems. Our team handles model selection, training, API development, and deployment, ensuring seamless functionality. This service is perfect for businesses looking to leverage AI for automation, predictive analytics, or enhanced user experiences, with a focus on scalability and ethical AI practices.",
+    "category": "AI",
+    "tags": ["AI", "machine learning", "NLP", "integration", "automation"],
+    "prerequisites": ["Dataset (if applicable)", "Use case definition"],
+    "deliveryFormat": "API endpoints, model documentation, integration support",
+    "imageUrl": "https://example.com/images/ai-integration.png",
+    "supportedIndustries": ["Retail", "Finance", "Manufacturing", "Healthcare"]
+  },
+  {
+    "id": "6",
+    "serviceName": "Data Analytics Platform",
+    "cost": 18000,
+    "isAvailable": true,
+    "implementationPeriod": "5-9 weeks",
+    "description": "We build customized data analytics platforms using tools like Tableau, Power BI, or custom Python solutions. The service includes data pipeline setup, visualization dashboards, and predictive analytics, tailored for businesses seeking data-driven insights. Our platforms support real-time data processing and integration with existing systems, empowering strategic decision-making.",
+    "category": "Analytics",
+    "tags": ["data", "analytics", "visualization", "business intelligence"],
+    "prerequisites": ["Data sources", "Analytics goals"],
+    "deliveryFormat": "Dashboard access, documentation, training",
+    "imageUrl": "https://example.com/images/data-analytics.png",
+    "supportedIndustries": ["Finance", "Retail", "Healthcare", "Logistics"]
+  },
+  {
+    "id": "7",
+    "serviceName": "E-commerce Platform Development",
+    "cost": 22000,
+    "isAvailable": true,
+    "implementationPeriod": "6-10 weeks",
+    "description": "We create robust e-commerce platforms using technologies like Shopify, Magento, or custom solutions with React and Node.js. The service includes product catalog management, payment gateway integration, and SEO optimization. Designed for scalability, our platforms support high traffic and provide seamless shopping experiences for customers across industries.",
+    "category": "E-commerce",
+    "tags": ["e-commerce", "Shopify", "Magento", "payment integration", "SEO"],
+    "prerequisites": ["Product catalog details", "Payment gateway preferences"],
+    "deliveryFormat": "Deployed platform, source code, documentation",
+    "imageUrl": "https://example.com/images/ecommerce.png",
+    "supportedIndustries": [
+      "Retail",
+      "Fashion",
+      "Electronics",
+      "Food & Beverage"
+    ]
+  },
+  {
+    "id": "8",
+    "serviceName": "DevOps Consulting",
+    "cost": 12000,
+    "isAvailable": true,
+    "implementationPeriod": "3-6 weeks",
+    "description": "Our DevOps consulting service optimizes your development and operations workflows using tools like Docker, Kubernetes, and CI/CD pipelines (e.g., Jenkins, GitLab CI). We implement automated testing, deployment, and monitoring solutions to enhance efficiency and reliability. This service is ideal for businesses aiming to accelerate software delivery while maintaining high quality.",
+    "category": "DevOps",
+    "tags": ["DevOps", "CI/CD", "Docker", "Kubernetes", "automation"],
+    "prerequisites": ["Current workflow details", "Infrastructure access"],
+    "deliveryFormat": "Pipeline configuration, documentation, training",
+    "imageUrl": "https://example.com/images/devops.png",
+    "supportedIndustries": ["Technology", "Finance", "Gaming", "Healthcare"]
+  },
+  {
+    "id": "9",
+    "serviceName": "UI/UX Design",
+    "cost": 9000,
+    "isAvailable": true,
+    "implementationPeriod": "2-5 weeks",
+    "description": "Our UI/UX design service creates intuitive and visually appealing interfaces for web and mobile applications. Using tools like Figma and Adobe XD, we deliver wireframes, prototypes, and final designs optimized for user engagement and accessibility. This service is perfect for businesses looking to enhance user satisfaction and retention through exceptional design.",
+    "category": "Design",
+    "tags": ["UI", "UX", "design", "Figma", "prototyping"],
+    "prerequisites": ["Brand guidelines", "Target audience details"],
+    "deliveryFormat": "Design files, prototypes, style guide",
+    "imageUrl": "https://example.com/images/ui-ux.png",
+    "supportedIndustries": ["All industries"]
+  },
+  {
+    "id": "10",
+    "serviceName": "Blockchain Development",
+    "cost": 30000,
+    "isAvailable": false,
+    "implementationPeriod": "10-14 weeks",
+    "description": "We develop secure and decentralized applications using blockchain technologies like Ethereum, Hyperledger, or Solana. Our services include smart contract development, token creation, and integration with existing systems. This service suits businesses exploring decentralized finance, supply chain transparency, or secure data management solutions.",
+    "category": "Blockchain",
+    "tags": ["blockchain", "smart contracts", "Ethereum", "decentralized"],
+    "prerequisites": ["Blockchain use case", "Technical requirements"],
+    "deliveryFormat": "Smart contracts, DApp, documentation",
+    "imageUrl": "https://example.com/images/blockchain.png",
+    "supportedIndustries": ["Finance", "Supply Chain", "Real Estate"]
+  }
+]

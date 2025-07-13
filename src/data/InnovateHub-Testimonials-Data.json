@@ -1,0 +1,58 @@
+[
+  {
+    "id": "t1",
+    "clientName": "Global Retail Inc.",
+    "quote": "Their custom web development service transformed our online presence, boosting sales by 40% in just three months.",
+    "service": "Custom Web Development",
+    "industry": "E-commerce"
+  },
+  {
+    "id": "t2",
+    "clientName": "TravelEasy Co.",
+    "quote": "The mobile app they built is intuitive and engaging, doubling our user retention rate.",
+    "service": "Mobile App Development",
+    "industry": "Travel"
+  },
+  {
+    "id": "t3",
+    "clientName": "SecureBank Ltd.",
+    "quote": "The cybersecurity audit identified critical vulnerabilities, helping us secure our systems swiftly.",
+    "service": "Cybersecurity Audit",
+    "industry": "Finance"
+  },
+  {
+    "id": "t4",
+    "clientName": "SmartAnalytics Corp.",
+    "quote": "Integrating AI into our systems streamlined our inventory forecasting, saving us significant costs.",
+    "service": "AI Model Integration",
+    "industry": "Retail"
+  },
+  {
+    "id": "t5",
+    "clientName": "XYZ Retail",
+    "quote": "The data analytics platform revolutionized our decision-making with real-time insights.",
+    "service": "Data Analytics Platform",
+    "industry": "Retail"
+  },
+  {
+    "id": "t6",
+    "clientName": "TrendyWear Boutique",
+    "quote": "Our new e-commerce platform saw a 50% increase in conversions thanks to their seamless design.",
+    "service": "E-commerce Platform Development",
+    "industry": "Fashion"
+  },
+  {
+    "id": "t7",
+    "clientName": "TechFlow Solutions",
+    "quote": "Their DevOps expertise cut our deployment time by 60%, boosting our productivity.",
+    "service": "DevOps Consulting",
+    "industry": "Technology"
+  },
+  {
+    "id": "t8",
+    "clientName": "HealthApp Inc.",
+    "quote": "The redesigned UI/UX improved user satisfaction by 30%, making our app a standout.",
+    "service": "UI/UX Design",
+    "industry": "Healthcare"
+  }
+]
