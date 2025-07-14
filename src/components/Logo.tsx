@@ -3,13 +3,13 @@ import logo from "../assets/logo.png";
 
 function Logo() {
   return (
-    <NavLink to="/" className="flex items-center gap-5">
+    <NavLink to="/" className="flex flex-col items-center gap-1">
       <img
         src={logo}
         alt="InnovateHub Logo"
-        className="font-logo size-[48px]"
+        className="font-logo size-[38px]"
       />
-      <span className="font-logo">InnovateHub</span>
+      <span className="font-logo text-[12px]">InnovateHub</span>
     </NavLink>
   );
 }
