@@ -4,7 +4,7 @@ import Nav from "./Nav";
 
 function Header() {
   return (
-    <header className="m-auto flex items-center justify-between bg-black px-11 py-4 text-amber-50">
+    <header className="text-primary m-auto flex items-center justify-between px-14 py-4 text-[18px]">
       <Logo />
       <Nav />
       <HeaderCTA />

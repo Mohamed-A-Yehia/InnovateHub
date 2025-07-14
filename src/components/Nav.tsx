@@ -3,25 +3,25 @@ import { NavLink } from "react-router";
 function Nav() {
   return (
     <nav>
-      <ul className="flex items-center gap-7 text-[18px]">
-        <li>
+      <ul className="flex items-center rounded-lg backdrop-blur-md">
+        <li className="mx-6 my-3">
           <NavLink className="hover:text-secondary" to="/">
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink className="hover:text-secondary" to="/about">
-            About
-          </NavLink>
-        </li>
-        <li>
+        <li className="mx-6 my-3">
           <NavLink className="hover:text-secondary" to="/services">
             Services
           </NavLink>
         </li>
-        <li>
-          <NavLink className="hover:text-secondary" to="/contact">
-            Contact Us
+        <li className="mx-6 my-3">
+          <NavLink className="hover:text-secondary" to="/about">
+            About
+          </NavLink>
+        </li>
+        <li className="mx-6 my-3">
+          <NavLink className="hover:text-secondary" to="/services">
+            FAQs
           </NavLink>
         </li>
       </ul>

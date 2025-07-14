@@ -6,15 +6,15 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Login from "./pages/Login";
+import Error from "./ui/Error";
 
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
+    errorElement: <Error />,
 
     children: [
       { path: "/", element: <Home /> },
-      { path: "/login", element: <Login /> },
       { path: "/about", element: <About /> },
       {
         path: "/services",
@@ -31,7 +31,6 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
-        // loader: LOADER_
         // errorElement: <Error/>
       },
     ],

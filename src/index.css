@@ -1,14 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
 @import "tailwindcss";
 
 @theme {
   --color-primary: #e7e7e7;
-  --color-secondary: #f1c40f;
+  --color-secondary: #0433ab;
 
-  --color-black: #080808;
-  --font-primary: "Roboto", "serif";
+  --default-font-family: "Roboto";
+  --font-logo: "Tektur", sans-serif;
 }
 
 * {
-  font-family: var(--font-primary);
   transition: 350ms;
 }
