@@ -4,7 +4,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #e7e7e7;
+  --color-primary: #f8f9fa;
   --color-secondary: #0433ab;
 
   --default-font-family: "Roboto";
@@ -13,4 +13,11 @@
 
 * {
   transition: 350ms;
+}
+
+.bgImage {
+  background-image: url(/home-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

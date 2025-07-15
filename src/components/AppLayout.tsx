@@ -1,14 +1,19 @@
-import { Outlet } from "react-router";
+import { Outlet, useLocation } from "react-router";
 import Header from "../components/Header";
+import "../index.css";
 
 function AppLayout() {
+  const { pathname } = useLocation();
+
   return (
     <>
-      <Header />
+      <div className={pathname === "/" ? "bgImage" : ""}>
+        <Header />
 
-      <main>
-        <Outlet />
-      </main>
+        <main>
+          <Outlet />
+        </main>
+      </div>
     </>
   );
 }
