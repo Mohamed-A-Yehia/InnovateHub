@@ -1,6 +1,9 @@
 function HeroSection() {
   return (
-    <section className="text-primary flex h-[100dvh] flex-col justify-around">
+    <section
+      id="hero"
+      className="text-primary flex min-h-[calc(100dvh-96px)] flex-col justify-around"
+    >
       <div className="flex flex-col items-center pt-32">
         <h1 className="text-4xl tracking-wider">
           <span className="font-logo font-semibold">InnovateHub</span>: Your
