@@ -1,8 +1,12 @@
+import HeroLogo from "./HeroLogo";
+
+import "./hero.css";
+
 function HeroSection() {
   return (
     <section
       id="hero"
-      className="text-primary flex min-h-[calc(100dvh-96px)] flex-col justify-around"
+      className="text-primary flex min-h-[calc(100dvh-96px)] flex-col justify-between"
     >
       <div className="flex flex-col items-center pt-32">
         <h1 className="text-4xl tracking-wider">
@@ -16,18 +20,9 @@ function HeroSection() {
         </p>
       </div>
 
-      <div className="text-center">
-        <div className="m-auto flex w-fit items-center justify-between gap-8 rounded-md bg-[#212529a4] px-8 py-4 text-center backdrop-blur-sm">
-          <p className="tracking-wide">
-            Trusted By <br /> Companies:
-          </p>
-          <div className="flex items-center justify-center gap-9">
-            <img className="w-28" src="business-insider.png" alt="" />
-            <img className="w-28" src="/markting.png" alt="" />
-            <img className="w-28" src="/techcrunch.png" alt="" />
-            <img className="w-28" src="/nyt.png" alt="" />
-            <img className="w-28" src="/usa-today.png" alt="" />
-          </div>
+      <div className="pb-10 text-center">
+        <div className="m-auto flex w-4xl items-center gap-8 overflow-hidden rounded-md bg-[#212529a4] px-8 py-4 text-center backdrop-blur-sm">
+          <HeroLogo />
         </div>
       </div>
     </section>

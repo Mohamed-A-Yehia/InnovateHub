@@ -6,6 +6,7 @@
 @theme {
   --color-primary: #f8f9fa;
   --color-secondary: #0433ab;
+  --color-secondaryHover: #1e49b6;
 
   --default-font-family: "Roboto";
   --font-logo: "Tektur", sans-serif;
